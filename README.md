@@ -5,7 +5,7 @@
 <img src="./assets/planful.png" alt="Palm Pay Logo" width="120">
 
 **A Modern, Secure, and Feature-Rich Mobile Payment Solution**
-</div>
+
 
 
 [![React Native](https://img.shields.io/badge/React%20Native-0.81.5-61dafb?style=for-the-badge&logo=react)](https://reactnative.dev/)
@@ -16,7 +16,7 @@
 [Features](#-features) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Documentation](#-documentation)
 
 </div>
-
+</div>
 ---
 
 ## 📋 Table of Contents
