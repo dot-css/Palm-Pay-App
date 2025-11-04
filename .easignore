@@ -1,0 +1,6 @@
+# EAS ignore file
+node_modules/
+.expo/
+.expo-shared/
+dist/
+*.log

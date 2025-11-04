@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Palm Pay",
+    "slug": "palm-pay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/planful.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.palmpay.app",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/planful.png"
+      },
+      "package": "com.palmpay.app",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "CAMERA",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/planful.png",
+          "color": "#1E319D",
+          "defaultChannel": "default",
+          "sounds": [
+            "./assets/new_notification_09_352705.mp3",
+            "./assets/transaction.mp3"
+          ]
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Palm Pay to access camera for QR code scanning."
+        }
+      ],
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1b8da1b9-6749-4718-997c-a9c089e6b2db"
+      }
+    },
+    "owner": "oyemrsaqib"
+  }
+}
