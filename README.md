@@ -2,9 +2,11 @@
 
 <div align="center">
 
-![Palm Pay Logo](./assets/planful.png)
+<img src="./assets/planful.png" alt="Palm Pay Logo" width="120">
 
 **A Modern, Secure, and Feature-Rich Mobile Payment Solution**
+</div>
+
 
 [![React Native](https://img.shields.io/badge/React%20Native-0.81.5-61dafb?style=for-the-badge&logo=react)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-54.0-000020?style=for-the-badge&logo=expo)](https://expo.dev/)
